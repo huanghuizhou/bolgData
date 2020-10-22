@@ -54,15 +54,12 @@
         "year": 2020,
         "month": 8,
         "link": [
-          "2020-08-01_\u963f\u51ef.jpeg",
           "2020-08-01_\u5c0f\u96cf\u83ca.jpeg"
         ],
         "text": [
-          "\u963f\u51ef",
           "\u5c0f\u96cf\u83ca"
         ],
         "type": [
-          "image",
           "image"
         ]
       }
@@ -218,6 +215,22 @@
         ],
         "text": [
           " \u5927\u58ee1"
+        ],
+        "type": [
+          "image"
+        ]
+      }
+    },
+    {
+      "date": "2018-08",
+      "arr": {
+        "year": 2018,
+        "month": 8,
+        "link": [
+          "2018-08-01_\u6211\u51ef.jpeg"
+        ],
+        "text": [
+          "\u6211\u51ef"
         ],
         "type": [
           "image"
