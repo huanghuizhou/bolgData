@@ -1,9 +1,10 @@
-#coding: utf-8
-from PIL import Image
-import os
-import sys
+# coding: utf-8
 import json
+import os
 from datetime import datetime
+
+from PIL import Image
+
 from ImageProcess import Graphics
 
 # 定义压缩比，数值越大，压缩越小
@@ -31,7 +32,7 @@ def list_img_file(directory):
     new_list = []
     for filename in old_list:
         name, fileformat = filename.split(".")
-        if fileformat.lower() == "jpg" or fileformat.lower() == "png" or fileformat.lower() == "gif":
+        if fileformat.lower() == "jpg" or fileformat.lower() == "png" or fileformat.lower() == "gif" or fileformat.lower() == "jpeg":
             new_list.append(filename)
     # print new_list
     return new_list
@@ -192,6 +193,6 @@ def git_operation():
 if __name__ == "__main__":
     cut_photo()        # 裁剪图片，裁剪成正方形，去中间部分
     compress_photo()   # 压缩图片，并保存到mini_photos文件夹下
-    git_operation()    # 提交到github仓库
+    # git_operation()    # 提交到github仓库
     handle_photo()     # 将文件处理成json格式，存到博客仓库中
 
